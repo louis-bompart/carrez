@@ -1,0 +1,27 @@
+{
+  "name": "carrez",
+  "version": "0.0.1",
+  "description": "Workshop #3 of WebAppDev at ESILV",
+  "main": "debug.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "json3": "^3.3.2",
+    "request": "^2.69.0",
+    "total.js": "^1.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony debug.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louis-bompart/carrez.git"
+  },
+  "author": "Louis Bompart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louis-bompart/carrez/issues"
+  },
+  "homepage": "https://github.com/louis-bompart/carrez#readme"
+}

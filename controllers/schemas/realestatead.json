@@ -1,0 +1,22 @@
+{
+	"title": "Real Estate Ad",
+	"type": "object",
+	"properties": {
+		"surface": {
+			"type": "integer"
+		},
+	  "prix" : {
+			"type": "integer"
+		},
+		"cp": {
+			"type": "string"
+		},
+    "city": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    }
+	},
+	"required": ["surface","price","cp","city","kind"]
+}

@@ -1,0 +1,16 @@
+{
+	"title": "Estimation Request",
+	"type": "object",
+	"properties": {
+		"cp": {
+			"type": "string"
+		},
+    "city": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    }
+	},
+	"required": ["cp","city","kind"]
+}

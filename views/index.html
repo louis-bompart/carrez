@@ -1,0 +1,17 @@
+@{title('Something awesome')}
+<form action="/" method="POST">
+	<!-- OR your custom definition -->
+	<div>URL:</div>
+	<div><input type="text" name="url" value="@{model.url}" /></div>
+	<br />
+	<div><button>SUBMIT</button></div>
+</form>
+
+<div>
+	@{if model.deal === true}
+		<p>That's a good Deal !</p>
+	@{else}
+		<p>Nope, that's not interesting</p>
+	@{fi}
+	<p>Average price : @{model.price}</p>
+</div>
