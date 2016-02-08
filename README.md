@@ -31,7 +31,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-##preamble
+## Preamble
+
+Please *DO NOT* download the lastest commit *BUT* the lastet *RELEASE*
 
 Instead of Express, I've used total.js which I found more easy to use for the same result (personal feeling, that's all).
 As at release v0.0.1, the carrez-app reached the MVP state. Meaning that it's fulfill the specification document of the workshop.
